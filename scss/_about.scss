@@ -1,0 +1,38 @@
+/* ABOUT */
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+.tituloFoto{
+    color: #111;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.tituloFoto span{
+    color: #ff0157;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.col50 p{
+    font-size: 1.5rem;
+}
+.row .col50 .imgBx{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.row .col50 .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,48 @@
+/* SECCION CONTACT */
+.contact{
+    background:url("../img/bg3.jpg");
+    background-size: contain;
+}
+.contactForm{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+    max-width: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.contactForm h3{
+    color: #111;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input,.contactForm .inputBox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactForm .inputBox input[type=submit]{
+    font-size: 1rem;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .5s;
+    max-width: 100px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
